@@ -1,3 +1,4 @@
+import 'package:cris_shopping/main_screens/home.dart';
 import 'package:flutter/material.dart';
 
 class CustomerHomeScreen extends StatefulWidget {
@@ -10,9 +11,7 @@ class CustomerHomeScreen extends StatefulWidget {
 class _CustomerHomeScreenState extends State<CustomerHomeScreen> {
   int _selectedItem = 0;
   final List<Widget> _tabs = const [
-    Center(
-      child: Text('Home'),
-    ),
+    HomeScreen(),
     Center(
       child: Text('Categoria'),
     ),
