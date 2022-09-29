@@ -35,7 +35,7 @@ class _CustomerHomeScreenState extends State<CustomerHomeScreen> {
         currentIndex: _selectedItem,
         items: const [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
-          BottomNavigationBarItem(icon: Icon(Icons.search), label: 'Categoria'),
+          // BottomNavigationBarItem(icon: Icon(Icons.search), label: 'Categoria'),
           BottomNavigationBarItem(
               icon: Icon(Icons.shopping_cart), label: 'Carrinho'),
           BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Perfil'),
